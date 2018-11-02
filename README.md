@@ -7,7 +7,7 @@ DV1537 Object-Oriented C++ Course
 ## General instructions
 
 1. Use GIT version control to manage your code and submit assignments unless specified otherwise (see separate instructions on how to set up and use GIT Classroom)
-2. Your program should use files as the only input. No keyboard input is permitted.
+2. Your program should use text files as the only input. No keyboard input is permitted. Path to the input file should be the first parameter to the program.
 3. Format output exactly as specified/exemplified in the assignment descriptions
 3. Follow good code writing practices:
 	a. Do not use global variables
@@ -18,7 +18,8 @@ DV1537 Object-Oriented C++ Course
 	f. Use code comments when the reasoning behind the solution is not obvious
 	g. Always check that that all allocated memory is released and avoid memory leaks
 4. You should not use any external libraries other than `math`, `iostream`, and `fstream`. 
-
+5. The program should be robust against wrong input data. If there is an error with input file the program should gracefully terminate with an non zero exit code.
+6. Real numbers should be printed with the precision of 3 decimal digits.
 
 
 ## Assignment A
@@ -29,8 +30,8 @@ is on memory management, class inheritance, encapsulation, and overloading. This
 ### A1: Pointers and memory management
 
 #### Instructions:
-- Write a program that reads numbers from a file into a buffer. 
-- When the end of the file is reached, the program outputs all numbers that are above the average
+- Write a program that reads numbers from a file into a buffer. The file contains a series of number separated by a space.
+- The program outputs all numbers that are above the average, separated by a space.
 - You must store the numbers in a dynamic array and extend the length of the array as needed.
 
 #### Example
@@ -42,15 +43,30 @@ Input: 1 1			Output: <nothing is printed>
 ```
 
 ### A2: Classes
-	Instructions:
-		- Implement an abstract class Shape with methods:
-			- getType() returns a string denoting type of a shape (point, line, polygon ..)
-			- area() returns area of the object, or 0 if the shape is concave or intersecting
-			- circumreference() returns circumreference of the object
-			- position() returns center coordinates of the object
-			- isConvex() returns true if shape is convex
-			- distance(Shape s) returns distance to the center of another shape
-		- Extend the Object classe into Point, Line, Triangle, and Polygon. Overload the inherited methods. Constructors of these classes take vertices coordinates as an input
+Instructions:
+- Implement an abstract class Shape with methods:
+	- getType() returns a string denoting type of a shape (point, line, polygon ..)
+	- area() returns area of the object, or -1 if the shape is concave, intersecting, or does not have an area
+	- circumreference() returns circumreference of the object
+	- position() returns center coordinates of the object
+	- isConvex() returns true if shape is convex
+	- distance(Shape s) returns distance to the center of another shape
+- Extend the Object classe into Point, Line, Triangle, and Polygon. Overload the inherited methods. Constructors of these classes take vertices coordinates as an input.
+
+- The program should load a shape from a file and output its surface area. The input file contains a series of real numbers indicating coordinates of vertices. Example:
+```
+1 2 3 4 5 6.43  // Denotes a triange with vertices at (1, 2) (3, 4) (5, 6.43) 
+```
+There should not be a limitation of how many points the program can load.
+
+Example:
+```
+Input: 1 1 1 2 2 2  		Output: 0.5
+Input: 1 1 1 2 2 2 3 1 2 0	Output: 2.5
+Input: 0 -10				Output: -1
+```	
+
+
 
 HOW TO TEST THIS???? How to provide input via file
 
