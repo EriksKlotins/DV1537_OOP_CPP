@@ -9,7 +9,8 @@ DV1537 Object-Oriented C++ Course
 1. Use GIT version control to manage your code and submit assignments unless specified otherwise (see separate instructions on how to set up and use GIT Classroom)
 2. Your program should use text files as the only input. No keyboard input is permitted. Path to the input file should be the first parameter to the program.
 3. Format output exactly as specified/exemplified in the assignment descriptions
-3. Follow good code writing practices:
+4. Follow good code writing practices:
+	
 	a. Do not use global variables
 	b. Divide classes into .cpp and .h files
 	c. All parameters that are constants should be declared as such
@@ -17,9 +18,10 @@ DV1537 Object-Oriented C++ Course
 	e. All code that is not used should be removed
 	f. Use code comments when the reasoning behind the solution is not obvious
 	g. Always check that that all allocated memory is released and avoid memory leaks
-4. You should not use any external libraries other than `math`, `iostream`, and `fstream`. 
-5. The program should be robust against wrong input data. If there is an error with input file the program should gracefully terminate with an non zero exit code.
-6. Real numbers should be printed with the precision of 3 decimal digits.
+
+5. You should not use any external libraries other than `math`, `iostream`, and `fstream`. 
+6. The program should be robust against wrong input data. If there is an error with input file the program should gracefully terminate with an non zero exit code.
+7. Real numbers should be printed with the precision of 3 decimal digits.
 
 
 ## Assignment A
@@ -80,23 +82,23 @@ Example:
 ```
 Input: 	1 1 2 2 2 3
 	0 1.6 0 1	Output: 2.1
-		
 ```	
 
 
 
 
-### A4: Class diagrams
+### A4: Class diagrams 
+
 Instructions:
-	- Draw a class diagram illustrating the class structure of A1-A3. Follow UML class diagram notation. Introduce and describe the figure.
-	- Describe 3 benefits of OOP over procedural programming.
-	- Describe 3 disadvantages of OOP over procedural programming. 
-	- Motivate your answers with examples, use references from credible online sources.
-	- Total length of the report should not exceed 2 pages.
+- Draw a class diagram illustrating the class structure of A1-A3. Follow UML class diagram notation. Introduce and describe the figure.
+- Describe 3 benefits of OOP over procedural programming.
+- Describe 3 disadvantages of OOP over procedural programming. 
+- Motivate your answers with examples, use references from credible online sources.
+- Total length of the report should not exceed 2 pages.
 
 
-Assignment B
-------------
+## Assignment B (To be updated)
+
 This assignment builds upon the previous assignment and introduces sorting algorithms, and recursion, in the context of 
 object-oriented programming. This assignment has 3 deliverables:
 
