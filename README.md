@@ -79,7 +79,7 @@ Instructions:
 Example:
 ```
 Input: 	1 1 2 2 2 3
-		0 1.6 0 1			Output: 2.1
+	0 1.6 0 1	Output: 2.1
 		
 ```	
 
