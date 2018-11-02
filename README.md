@@ -62,31 +62,37 @@ There should not be a limitation of how many points the program can load.
 Example:
 ```
 Input: 1 1 1 2 2 2  		Output: 0.5
+Input: 1 3.4 3 3 13.13 3	Output: 2.026
 Input: 1 1 1 2 2 2 3 1 2 0	Output: 2.5
-Input: 0 -10				Output: -1
+Input: 0 -10			Output: -1
 ```	
 
 
 
-HOW TO TEST THIS???? How to provide input via file
-
-
-A3: Operator overloading & object cloning
-	Instructions:
-		- Overload the assignment operator (=) that deep copies the object. 
-		- Overload the addition operator (+) that makes possible to add more points to a polygon. The added points extend the polygon
-		- Overload the << operator to print a shape.
+### A3: Operator overloading & object cloning
+Instructions:
+- Overload the assignment operator (=) that deep copies the object. 
+- Overload the addition operator (+) that makes possible to add more points to a polygon. The added points extend the polygon. 
+- Overload the << operator to print a formatted list of shape vertices
+- Update the previous assignment
+- The program should load two shapes from a file, add them using + operator, and print area of the resulting shape. The input file contains two lines, one for each shape	
+Example:
+```
+Input: 	1 1 2 2 2 3
+		0 1.6 0 1			Output: 2.1
 		
-HOW TO TEST THIS???? How to provide input via file
+```	
 
 
-A4: Class diagrams
-	Instructions:
-		- Draw a class diagram illustrating the class structure of A1-A3. Follow UML class diagram notation. Introduce and describe the figure.
-		- Describe 3 benefits of OOP over procedural programming.
-		- Describe 3 disadvantages of OOP over procedural programming. 
-		- Motivate your answers with examples and references to credible online sources.
-		- Total length of the report should not exceed 2 pages.
+
+
+### A4: Class diagrams
+Instructions:
+	- Draw a class diagram illustrating the class structure of A1-A3. Follow UML class diagram notation. Introduce and describe the figure.
+	- Describe 3 benefits of OOP over procedural programming.
+	- Describe 3 disadvantages of OOP over procedural programming. 
+	- Motivate your answers with examples, use references from credible online sources.
+	- Total length of the report should not exceed 2 pages.
 
 
 Assignment B
