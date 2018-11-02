@@ -71,11 +71,11 @@ Input: 0 -10			Output: -1
 
 ### A3: Operator overloading & object cloning
 Instructions:
-- Overload the assignment operator (=) that deep copies the object. 
-- Overload the addition operator (+) that makes possible to add more points to a polygon. The added points extend the polygon. 
-- Overload the << operator to print a formatted list of shape vertices
+- Overload the assignment operator `=` that deep copies the object. 
+- Overload the addition operator `+` that makes possible to add more points to a polygon. The added points extend the polygon. 
+- Overload the `<<` operator to print a formatted list of shape vertices
 - Update the previous assignment
-- The program should load two shapes from a file, add them using + operator, and print area of the resulting shape. The input file contains two lines, one for each shape	
+- The program should load two shapes from a file, add them using `+` operator, and print area of the resulting shape. The input file contains two lines, one for each shape	
 Example:
 ```
 Input: 	1 1 2 2 2 3
