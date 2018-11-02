@@ -4,7 +4,7 @@ DV1537 Object-Oriented C++ Course
 
 
 
-General instructions
+## General instructions
 --------------------
 1. Use GIT version control to manage your code and submit assignments unless specified otherwise (see separate instructions on how to set up and use GIT Classroom)
 2. Your program should use files as the only input. No keyboard input is permitted.
@@ -21,12 +21,12 @@ General instructions
 
 
 
-Assignment A
+## Assignment A
 ------------
 The aim of assignment A is to test your understanding on pointers and working with classes. The focus
 is on memory management, class inheritance, encapsulation, and overloading. This assignment has 4 deliverables:
 
-A1: Pointers and memory management
+### A1: Pointers and memory management
 	Instructions:
 		- Write a program that reads numbers from a file into a buffer. 
 		- When the end of the file is reached, the program outputs all numbers that are above the average
@@ -37,7 +37,7 @@ A1: Pointers and memory management
 		Input: 1 1			Output: <nothing is printed> 
 
 
-A2: Classes
+### A2: Classes
 	Instructions:
 		- Implement an abstract class Shape with methods:
 			- getType() returns a string denoting type of a shape (point, line, polygon ..)
