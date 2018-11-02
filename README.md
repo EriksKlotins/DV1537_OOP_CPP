@@ -5,7 +5,7 @@ DV1537 Object-Oriented C++ Course
 
 
 ## General instructions
---------------------
+
 1. Use GIT version control to manage your code and submit assignments unless specified otherwise (see separate instructions on how to set up and use GIT Classroom)
 2. Your program should use files as the only input. No keyboard input is permitted.
 3. Format output exactly as specified/exemplified in the assignment descriptions
@@ -17,25 +17,28 @@ DV1537 Object-Oriented C++ Course
 	e. All code that is not used should be removed
 	f. Use code comments when the reasoning behind the solution is not obvious
 	g. Always check that that all allocated memory is released and avoid memory leaks
-4. You should not use any external libraries other than math, iostream and fstream
+4. You should not use any external libraries other than `math`, `iostream`, and `fstream`. 
 
 
 
 ## Assignment A
-------------
+
 The aim of assignment A is to test your understanding on pointers and working with classes. The focus
 is on memory management, class inheritance, encapsulation, and overloading. This assignment has 4 deliverables:
 
 ### A1: Pointers and memory management
-	Instructions:
-		- Write a program that reads numbers from a file into a buffer. 
-		- When the end of the file is reached, the program outputs all numbers that are above the average
-		- You must store the numbers in a dynamic array and extend the length of the array as needed.
-	Example:
-		Input: 1 2 3 4 5		Output: 4 5
-		Input: 0 0 0 0 1		Output: 1
-		Input: 1 1			Output: <nothing is printed> 
 
+#### Instructions:
+	- Write a program that reads numbers from a file into a buffer. 
+	- When the end of the file is reached, the program outputs all numbers that are above the average
+	- You must store the numbers in a dynamic array and extend the length of the array as needed.
+
+#### Example:
+```
+	Input: 1 2 3 4 5		Output: 4 5
+	Input: 0 0 0 0 1		Output: 1
+	Input: 1 1			Output: <nothing is printed> 
+```
 
 ### A2: Classes
 	Instructions:
