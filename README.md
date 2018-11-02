@@ -29,15 +29,16 @@ is on memory management, class inheritance, encapsulation, and overloading. This
 ### A1: Pointers and memory management
 
 #### Instructions:
-	- Write a program that reads numbers from a file into a buffer. 
-	- When the end of the file is reached, the program outputs all numbers that are above the average
-	- You must store the numbers in a dynamic array and extend the length of the array as needed.
+- Write a program that reads numbers from a file into a buffer. 
+- When the end of the file is reached, the program outputs all numbers that are above the average
+- You must store the numbers in a dynamic array and extend the length of the array as needed.
 
-#### Example:
+#### Example
+
 ```
-	Input: 1 2 3 4 5		Output: 4 5
-	Input: 0 0 0 0 1		Output: 1
-	Input: 1 1			Output: <nothing is printed> 
+Input: 1 2 3 4 5		Output: 4 5
+Input: 0 0 0 0 1		Output: 1
+Input: 1 1			Output: <nothing is printed> 
 ```
 
 ### A2: Classes
