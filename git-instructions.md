@@ -11,8 +11,9 @@ If you have never heard of GIT, check out these resources:
 	- https://opensource.com/resources/what-is-git
 	- https://git-scm.com/downloads
 	- https://git-scm.com/downloads/guis
+	- https://code.visualstudio.com/docs/editor/versioncontrol
 
-Make sure you have GIT installed and you can run it from command line. Try out the GIT GUI applications that may make your life a little bit easier.
+Make sure you have GIT installed and you can run it from command line. Try out the GIT GUI applications that may make your life a little bit easier. If you are using Visual Studio Code you can work with git directly from the IDE.
 
 
 
