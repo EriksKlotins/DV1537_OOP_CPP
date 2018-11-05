@@ -19,7 +19,7 @@ DV1537 Object-Oriented C++ Course
 	6. Use code comments when the reasoning behind the solution is not obvious
 	7. Always check that that all allocated memory is released and avoid memory leaks
 
-5. You should not use any external libraries other than `math`, `iostream`, and `fstream`. 
+5. You should not use any external libraries other than `cmath`, `iostream`, `fstream`, and `strings`. If you wish to use another library please check with the lab assistants first. 
 6. The program should be robust against wrong input data. If there is an error with input file the program should gracefully terminate with an non zero exit code.
 7. Real numbers should be printed with the precision of 3 decimal digits.
 
