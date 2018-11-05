@@ -11,13 +11,13 @@ DV1537 Object-Oriented C++ Course
 3. Format output exactly as specified/exemplified in the assignment descriptions
 4. Follow good code writing practices:
 	
-	a. Do not use global variables
-	b. Divide classes into .cpp and .h files
-	c. All parameters that are constants should be declared as such
-	d. All variable and class names should be in English, self-explanatory, and must use CamelCase. 
-	e. All code that is not used should be removed
-	f. Use code comments when the reasoning behind the solution is not obvious
-	g. Always check that that all allocated memory is released and avoid memory leaks
+	1. Do not use global variables
+	2. Divide classes into .cpp and .h files
+	3. All parameters that are constants should be declared as such
+	4. All variable and class names should be in English, self-explanatory, and must use camelCase. 
+	5. All code that is not used should be removed
+	6. Use code comments when the reasoning behind the solution is not obvious
+	7. Always check that that all allocated memory is released and avoid memory leaks
 
 5. You should not use any external libraries other than `math`, `iostream`, and `fstream`. 
 6. The program should be robust against wrong input data. If there is an error with input file the program should gracefully terminate with an non zero exit code.
