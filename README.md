@@ -95,6 +95,7 @@ Instructions:
 - Describe 3 disadvantages of OOP over procedural programming. 
 - Motivate your answers with examples, use references from credible online sources.
 - Total length of the report should not exceed 2 pages.
+- For A4 to be passed, you must pass A1-A3 before.
 
 
 ## Assignment B (To be updated)
