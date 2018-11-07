@@ -87,7 +87,7 @@ Input: 	1 1 2 2 2 3
 
 
 
-### A4: Class diagrams 
+### A4 (Conclusion): Class diagrams 
 
 Instructions:
 - Draw a class diagram illustrating the class structure of A1-A3. Follow UML class diagram notation. Introduce and describe the figure.
