@@ -105,22 +105,22 @@ This assignment builds upon the previous assignment and introduces sorting algor
 object-oriented programming. This assignment has 3 deliverables:
 
 
-B1: Polymorphism
+### B1: Polymorphism
 	Instructions:
 		- Implement a Figure class enabling grouping of shapes. The Figure class should have the following methods:
 			- addShape(Shape s) adds a shape to the group
 			- getBoundingBox() calculates the minimum axis-aligned bounding rectangle to fit all the shapes. The method returns top left and bottom right corners of the box.
 			
-B2: Recursion
+### B2: Recursion
 	Instructions:
 		- Extend the Figure class with the following:
 			- getClosest(Shape location, int n) - returns n closest shapes to the location. Make sure Point is a valid Shape.
 			- In the class, you must implement and use a recursive sorting algorithm of your choice
 
 
-B3: Class diagrams
+### B3: Class diagrams & reflections
 	Instructions:
 		- Extend the class diagram from A4 with the new classes/methods.
 		- Write a short summary, max 1/2 of a page of pros and cons of using a recursion. Describe when one should opt for loops, and when for recursion.
-		- Choose and compare 3 sorting algoritms.
+		- Choose and compare 3 sorting algoritms, 1 page max.
 
