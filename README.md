@@ -115,9 +115,9 @@ Instructions:
 
 ### B2: Recursion
 Instructions:
-Extend the Figure class with the following:
-- getClosest(Shape location, int n) - returns n closest shapes to the location. Make sure Point is a valid Shape.
-- In the class, you must implement and use a recursive sorting algorithm of your choice
+- Extend the Figure class with the following:
+   - getClosest(Shape location, int n) - returns n closest shapes to the location. Make sure Point is a valid Shape.
+   - In the class, you must implement and use a recursive sorting algorithm of your choice
 - Your program should read from a file containing multiple shapes (one per line) and return 3 closes shapes to the first one.
 
 
