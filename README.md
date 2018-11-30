@@ -22,6 +22,7 @@ DV1537 Object-Oriented C++ Course
 5. You should not use any external libraries other than `cmath`, `iostream`, `fstream`, and `strings`. If you wish to use another library please check with the lab assistants first. 
 6. The program should be robust against wrong input data. If there is an error with input file the program should gracefully terminate with an non zero exit code.
 7. Real numbers should be printed with the precision of 3 decimal digits.
+8. If you need to make an assumption, describe it explicity with code comments (please use English)
 
 
 ## Assignment A
@@ -53,7 +54,7 @@ Instructions:
 	- position() returns center coordinates of the object
 	- isConvex() returns true if shape is convex
 	- distance(Shape s) returns distance to the center of another shape
-- Extend the Object classe into Point, Line, Triangle, and Polygon. Overload the inherited methods. Constructors of these classes take vertices coordinates as an input.
+- Extend the Shape class into Point, Line, Triangle, and Polygon. Overload the inherited methods. Constructors of these classes take vertices coordinates as an input.
 
 - The program should load a shape from a file and output its surface area. The input file contains a series of real numbers indicating coordinates of vertices. Example:
 ```
@@ -98,7 +99,7 @@ Instructions:
 - For A4 to be passed, you must pass A1-A3 before.
 
 
-## Assignment B (To be updated)
+## Assignment B (updated 30/11/2018)
 
 This assignment builds upon the previous assignment and introduces sorting algorithms, and recursion, in the context of 
 object-oriented programming. This assignment has 3 deliverables:
@@ -108,18 +109,18 @@ B1: Polymorphism
 	Instructions:
 		- Implement a Figure class enabling grouping of shapes. The Figure class should have the following methods:
 			- addShape(Shape s) adds a shape to the group
-			- getBoundingBox() calculates the minimum axis-aligned bounding rectangle to fit all the figures. The method returns top left and bottom right corners of the box.
+			- getBoundingBox() calculates the minimum axis-aligned bounding rectangle to fit all the shapes. The method returns top left and bottom right corners of the box.
 			
 B2: Recursion
 	Instructions:
 		- Extend the Figure class with the following:
-			- getClosest(Shape location, int s, int n) - orders the list of shapes by their distance from the location and returns n closest shapes starting from s.
-			- In the class, you must implement a recursive sorting algorithm of your choice
+			- getClosest(Shape location, int n) - returns n closest shapes to the location. Make sure Point is a valid Shape.
+			- In the class, you must implement and use a recursive sorting algorithm of your choice
 
 
 B3: Class diagrams
 	Instructions:
 		- Extend the class diagram from A4 with the new classes/methods.
-		- When to use and when not to use recursion
-		- Compare 3 sorting algoritms by ( no O measure)
+		- Write a short summary, max 1/2 of a page of pros and cons of using a recursion. Describe when one should opt for loops, and when for recursion.
+		- Choose and compare 3 sorting algoritms.
 
